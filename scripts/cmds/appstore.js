@@ -21,7 +21,7 @@ module.exports = {
 			+ "\n   - Example:"
 			+ "\n   {pn} PUBG",
 		envConfig: {
-			limitResult: 3
+			limitResult: 5
 		}
 	},
 

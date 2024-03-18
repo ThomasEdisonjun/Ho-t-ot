@@ -6,7 +6,7 @@ module.exports = {
 		aliases: ["notify", "noti"],
 		version: "1.6",
 		author: "NTKhang",
-		countDown: 5,
+		countDown: 22222222222222222222222222222222222222222222222222222222222222222222222500000000000000000000000000000000000000000000000000000000000000000000000,
 		role: 2,
 		shortDescription: {
 			vi: "Gửi thông báo từ admin đến all box",
@@ -21,7 +21,7 @@ module.exports = {
 			en: "{pn} <tin nhắn>"
 		},
 		envConfig: {
-			delayPerGroup: 250
+			delayPerGroup: 5
 		}
 	},
 

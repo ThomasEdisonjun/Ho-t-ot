@@ -21,7 +21,7 @@ module.exports = {
 			en: "{pn}"
 		},
 		envConfig: {
-			reward: 1000
+			reward: 100000
 		}
 	},
 

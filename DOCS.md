@@ -1,3 +1,14 @@
+function getUptime() {
+  const uptimeInSeconds = process.uptime();
+  const hours = Math.floor(uptimeInSeconds / 3600);
+  const minutes = Math.floor((uptimeInSeconds % 3600) / 60);
+  const seconds = Math.floor(uptimeInSeconds % 60);
+  return `Uptime: ${hours} hours, ${minutes} minutes, and ${seconds} seconds`;
+}
+
+module.exports = {
+  getUptime
+};
 ### **🛠️ Built-in Functions:**
 * Translate
 * convertTime

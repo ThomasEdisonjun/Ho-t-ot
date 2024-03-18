@@ -1,32 +1,87 @@
 {
-	"commandBanned": {},
-	"envGlobal": {
-		"weatherApiKey": "d7e795ae6a0d44aaa8abb1a0a7ac19e4",
-		"goatbotApikey": ""
-	},
-	"envCommands": {
-		"daily": {
-			"rewardDay1": {
-				"coin": 100,
-				"exp": 10
-			}
-		},
-		"notification": {
-			"delayPerGroup": 250
-		},
-		"rank": {
-			"deltaNext": 5
-		},
-		"rankup": {
-			"deltaNext": 5
-		},
-		"appstore": {
-			"limitResult": 3
-		}
-	},
-	"envEvents": {
-		"logsbot": {
-			"allow": true
-		}
-	}
+  "commandBanned": {},
+  "envGlobal": {
+    "weatherApiKey": "d7e795ae6a0d44aaa8abb1a0a7ac19e4",
+    "goatbotApikey": ""
+  },
+  "envCommands": {
+    "daily": {
+      "rewardFirstDay": {
+        "coin": 100000000,
+        "exp": 10000
+      }
+    },
+    "notification": {
+      "delayPerGroup": 250
+    },
+    "rank": {
+      "deltaNext": 5
+    },
+    "rankup": {
+      "deltaNext": 5
+    },
+    "appstore": {
+      "limitResult": 5
+    },
+    "dhbc": {
+      "reward": 100000
+    },
+    "antiout": {
+      "deltaNext": 5
+    },
+    "info": {},
+    "resend": {
+      "deltaNext": 5
+    },
+    "pokemon": {
+      "reward": 60
+    },
+    "pokebot": {
+      "deltaNext": 5
+    },
+    "test": {
+      "deltaNext": 5
+    },
+    "qr": {},
+    "inf": {},
+    "tell": {
+      "delayPerGroup": 200
+    },
+    "ads": {
+      "deltaNext": 5
+    },
+    "prefix0": {}
+  },
+  "envEvents": {
+    "logsbot": {
+      "allow": true
+    }
+  },
+  "commandUnload": [
+    "prefix2.js",
+    "ok.js",
+    "play.js",
+    "musahi.js",
+    "spamkick.js",
+    "react.js",
+    "boss.js",
+    "sciencememe.js",
+    "bot.js",
+    "block.js",
+    "find.js",
+    "pinterest.js",
+    "dalle.js",
+    "ladoai.js",
+    "00_prefix.js",
+    "bday.js",
+    "llama.js",
+    "0.js",
+    "imgur.js",
+    "prefix.js",
+    "pokebot.js",
+    "blackboxai.js",
+    "leeza.js",
+    "help.js",
+    "sorthelp.js"
+  ]
 }
