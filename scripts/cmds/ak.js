@@ -22,7 +22,7 @@ module.exports = {
       body: gifUrl,
       attachment: await global.utils.getStreamFromURL(gifUrl),
       mentions: [{
-        tag: "Sobit Tamang",
+        tag: "Yukinori ʚĭɞ",
         id: "100092377898995"
       }]
     }
