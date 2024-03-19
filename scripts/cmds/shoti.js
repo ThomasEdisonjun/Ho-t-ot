@@ -33,7 +33,7 @@ module.exports = {
 
         await api.sendMessage(
           {
-            body: `@${response.data.data.user.username}\n𝗗𝗮𝗺𝗻 𝘆𝗼𝘂𝗿 𝘁𝗲𝗺𝗽𝗼𝗿𝗮𝗿𝘆 𝘄𝗶𝗳𝗲𝘆🥵`,
+            body: `@${response.data.data.user.username}\n🥵💦💦`,
             attachment: fs.createReadStream(__dirname + "/cache/shoti.mp4"),
           },
           event.threadID,
