@@ -6,17 +6,17 @@ module.exports = {
   config: {
     name: 'shoti',
     version: '1.0',
-    author: 'DRG',
+    author: 'yukinori ʚĭɞ',
     countDown: 10,
     role: 0,
-    longDescription: 'get videos from drg api',
+    longDescription: 'get videos from shori api',
     category: 'ai',
     guide: '{pn} shoti',
   },
   onStart: async function ({ api, event }) {
     try {
       api.setMessageReaction('👀', event.messageID, (err) => {}, true);
-      const response = await axios.get('http://videos.kapalnai.repl.co/video/apikey=drg');
+      const response = await axios.get('https://shoti-api.deno.dev/');
       const ext = response.data.url.substring(response.data.url.lastIndexOf('.') + 1);
      
       const callback = () => {
